@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header-dark{
+  background-color:hsl(209, 23%, 22%);
+  color:white;
+}
+.header-white{
+  background-color:white;
+  color:black;
+}
+.mainbody-dark{
+  background-color:hsl(207, 26%, 17%) ;
+}
+.mainbody-light{
+  background-color:hsl(0, 0%, 93%) ;
+}
+.filter-dark input,.filter-dark select{
+  background-color:hsl(209, 23%, 22%) ;
+  color:white;
+}
+.filter-light input,.filter-light select{
+  background-color:white ;
+  color:black;
+}
+.filter  img{
+  top:18px;
+}
+.eachcountry{
+  background-color:hsl(207, 26%, 17%)  ;
+}
+.button-light{
+  background-color:white;
+  color:black;
+}
+.button-dark{
+  background-color:hsl(209, 23%, 22%);
+  color:white;
+}
+
+.eachcountry-dark{
+  background-color:hsl(209, 23%, 22%);
+}
+.eachcountry-light{
+  background-color: white;
+  color:black;
+}
+.grid img{
+  object-fit: cover;
+}
+.text-container span{
+  color:#888e94;
+  font-weight:500;
+  padding-left: 5px;
+}
+.country{
+  height:100%;
+  min-height: 90.2vh;
+}
