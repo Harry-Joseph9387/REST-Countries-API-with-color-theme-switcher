@@ -54,7 +54,7 @@ const Country = ({e2,e4}) => {
                 </div>
                 <div className="flex md:justify-center md:gap-20 flex-col md:flex-row  px-5">
                         <div className="flex justify-start md:items-center ">
-                            <img src={country[0].flags.svg} alt="" className=" max-w-sm lg:max-w-xl md:max-w-sm md:h-56 lg:h-full  h-full  max-h-80 " style={{objectFit:"cover"}}/>
+                            <img src={country[0].flags.svg} alt="" className=" w-full max-w-sm lg:max-w-xl md:max-w-sm md:h-56 lg:h-full  h-full  max-h-80 " style={{objectFit:"cover"}}/>
                         </div>
                         <div className={`${e2?"text-white":"text-black"} text-sm md:text-md flex flex-col w-full text-container max-w-lg  gap-5 pt-5`}>
                             <h1 className="text-2xl md:text-3xl font-semibold">{country[0].name.common}</h1>
